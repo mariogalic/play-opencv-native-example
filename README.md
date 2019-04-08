@@ -1,4 +1,4 @@
-# Setup Native OpenCV library in Play Framework
+# Setup Native OpenCV library in Play Framework
 
 This example shows how to load native OpenCV in Scala Play project. 
 Also, it is an attempt to answer Stack Overflow question [UnsatisfiedLinkError: How to load native library of opencv when running play application?](https://stackoverflow.com/questions/55520731/unsatisfiedlinkerror-how-to-load-native-library-of-opencv-when-running-play-app)
@@ -30,5 +30,5 @@ which is not the case when executing Play's `sbt run`.
    ```
    NativeLoader.load(Core.NATIVE_LIBRARY_NAME)
    ```
-1. Test with `sbt run` and hitting [localhost:9000)](http://localhost:9000)
+1. Test with `sbt run` and hitting [localhost:9000](http://localhost:9000)
 
